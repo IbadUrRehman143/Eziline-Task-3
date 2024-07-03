@@ -1,0 +1,28 @@
+.bg1 {
+    background-color: #1a57a5;
+    width: 1263px;
+    height: 250px;
+}
+
+.bg2 i {
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 30px;
+    font-size: x-large;
+    color: #a7a8ab;
+    cursor: pointer;
+}
+
+.bg2 {
+    display: flex;
+    justify-content: center;
+}
+.foot{
+    text-align: center;
+    margin-top: 40px;
+    color: #fff;
+}
+.foot  a{
+    text-decoration: none;
+    color: #a7a8ab;
+}

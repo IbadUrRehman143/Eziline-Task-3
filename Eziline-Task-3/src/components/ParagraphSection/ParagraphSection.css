@@ -1,0 +1,34 @@
+.ParagraphSection{
+    display: flex;
+    margin-left: 80px;
+}
+.firstp h3{
+     margin-left: 80px;
+     margin-top: -20px;
+
+}
+.firstp span {
+    margin-left: 30px;
+}
+.firstp p{
+    margin-left: 80px;
+    margin-top: 20px;
+    width: 475px;
+}
+.firstpp h3{
+     margin-left: 160px;
+     margin-top: -20px;
+
+}
+.firstpp span {
+    margin-left: 110px;
+}
+.firstpp p{
+    margin-left: 150px;
+    margin-top: 20px;
+    width: 475px;
+}
+.name{
+    display: flex;
+    margin-top: 40px;
+}

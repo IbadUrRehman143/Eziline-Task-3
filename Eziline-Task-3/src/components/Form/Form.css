@@ -1,0 +1,55 @@
+.bg {
+    background-color: #D6E6F2;
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+
+.form {
+    background-color: #fff;
+    width: 600px;
+    height: 650px;
+    margin-left: 70px;
+    display: flex;
+}
+
+.form2 {
+    display: flex;
+    flex-direction: column;
+    width: 500px ;
+    padding: 40px;
+    
+}
+.form2 input{
+    padding: 20px;
+    margin-top: 20px;
+    
+}
+.resize{
+    padding: 20px;
+    margin-top: 20px;
+    resize: none;
+}
+.tr{
+    width: 220px;
+    height: 70px;
+    margin-left: 200px;
+    cursor: pointer;
+    margin-top: 40px;
+    align-items: center;
+    background: blue;
+    border-radius: 2px;
+}
+.Contact{
+    margin-left: 180px;
+
+}
+.Contact h3 {
+    padding-top: 30px;
+    color: rgba(0, 0, 0, .3);
+
+
+}
+.Contact p{
+    padding-top: 15px;
+    color: #73767c;
+}
