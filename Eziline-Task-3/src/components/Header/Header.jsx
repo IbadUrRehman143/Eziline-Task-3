@@ -1,26 +1,37 @@
-// import React from "react";
+import React, { useState } from "react";
 import "./Header.css";
 
 export default function Header() {
+  const [isNavOpen, setIsNavOpen] = useState(false);
+
+  const toggleNav = () => {
+    setIsNavOpen(!isNavOpen);
+  };
+
   return (
     <div className="header">
       <div className="Nav">
-      <h1>FRAME</h1>
-        <ul>
+        <div className="Nav--row">
+          <h1>FRAME</h1>
+          <button className="nav-toggle" onClick={toggleNav}>
+            ☰
+          </button>
+        </div>
+        <ul className={isNavOpen ? "nav-open" : ""}>
           <li>
-            <a href="Home">Home</a>
+            <a href="#Home">Home</a>
           </li>
           <li>
-            <a href="Pricing">Pricing</a>
+            <a href="#Pricing">Pricing</a>
           </li>
           <li>
-            <a href="Features">Features</a>
+            <a href="#Features">Features</a>
           </li>
           <li>
-            <a href="reveiws">Reveiws</a>
+            <a href="#Reviews">Reviews</a>
           </li>
           <li>
-            <a href="Contact">Contact</a>
+            <a href="#Contact">Contact</a>
           </li>
         </ul>
       </div>
@@ -38,4 +49,3 @@ export default function Header() {
     </div>
   );
 }
- 

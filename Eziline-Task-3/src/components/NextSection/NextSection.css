@@ -94,3 +94,25 @@
 .cards7 {
     display: inline-block;
 }
+
+@media(max-width:768px){
+    .Features1 p {
+        padding-top: 30px;
+        width: 300px;
+        margin: auto;
+        text-align: center;
+        color: rgba(255, 255, 255, .7);
+    }
+    .cards6 {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 60px;
+        align-items: center;
+
+    }
+    .Firstcard, .Secondcard, .thirdcard {
+        background-color: #fff;
+        margin-left: 50px;
+        margin-top: 30px;
+    }
+}

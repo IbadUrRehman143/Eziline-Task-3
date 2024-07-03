@@ -5,7 +5,7 @@ import Image2 from "../../assets/image2.png";
 const Features = () => {
   return (
     <div className="Features">
-      <div className="Features1">
+      <div className="Features10">
         <h1>Features</h1>
         <hr />
         <p>

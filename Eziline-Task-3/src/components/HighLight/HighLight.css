@@ -12,7 +12,7 @@ h1{
 }
 .section2{
     width: 290px; 
-       margin-left: 85px;
+    margin-left: 85px;
 
 }
 .section3{
@@ -37,4 +37,56 @@ h1{
     border: 3px solid #fff;
     font-size: larger;
 
+}
+.section1 button ,a, .section2 button ,a, .section3 button,a{
+    text-decoration: none;
+}
+
+@media (max-width: 768px){
+    .HighLight{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 50px;
+        margin-bottom: 100px;
+    }
+    .section1{
+        width: 190px;
+    }
+    .section2{
+        width: 190px; 
+        margin-left: 10px;
+    
+    }
+    .section3{
+        width: 190px;
+        margin-left: 10px;
+    
+    }
+    .section1 img , .section2 img , .section3 img{
+        height: 50px;
+        margin-top: 20px;
+        margin-left: -40px;
+    }
+    .section1 p , .section2 p , .section3 p{
+        margin-top: 30px;
+        margin-left: -40px;
+    }
+    .section1 h1 , .section2 h1 , .section3 h1{
+        margin-top: 30px;
+        margin-left: -40px;
+    }
+    .section1 button , .section2 button , .section3 button{
+        margin-top: 30px;
+        width: 226px;
+        height: 30px;
+        background: transparent;
+        border: 3px solid #fff;
+        font-size: larger;
+        margin-bottom: 10px;
+    
+    }
+    .section1 button ,a, .section2 button ,a, .section3 button,a{
+        text-decoration: none;
+    }
 }

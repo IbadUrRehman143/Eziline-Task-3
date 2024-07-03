@@ -32,3 +32,40 @@ button{
     font-size: 16px;
     padding: 10px 40px;
 }
+
+@media(max-width:768px){
+    .Features1 {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Features1 h1 {
+        text-align: center;
+        padding-top: 20px;
+        color: #fff;
+    }
+    .Features1 p {
+        padding-top: 10px;
+        width: 300px;
+        margin: auto;
+        text-align: center;
+        color: rgba(255, 255, 255, .7);
+    }
+    .join{
+        background-color: #1a57a5;
+        width: 414px;
+        height: 330px;
+        margin-top: 70px;
+        
+    }
+    button{
+        background: black;
+        color: #fff;
+        width: 170px;
+        height: 60px;
+        border-radius: 0;
+        font-size: 16px;
+        padding: -5px 40px;
+    }
+}

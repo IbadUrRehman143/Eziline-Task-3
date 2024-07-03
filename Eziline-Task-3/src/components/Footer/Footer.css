@@ -26,3 +26,24 @@
     text-decoration: none;
     color: #a7a8ab;
 }
+
+@media(max-width :768px){
+    .bg1 {
+        background-color: #1a57a5;
+        width: 414px;
+        height: 250px;
+    }
+    .bg2 {
+        display: flex;
+        justify-content: center;
+        margin-left: -120px;
+    }
+    .foot {
+        text-align: center;
+        margin-top: 40px;
+        margin-left: -45px;
+        color: #fff;
+    }
+    
+
+}

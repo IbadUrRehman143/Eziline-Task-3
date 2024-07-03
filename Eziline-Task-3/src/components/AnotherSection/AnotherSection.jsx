@@ -3,8 +3,8 @@ import "./AnotherSection.css";
 import Laptop from "../../assets/laptop_1.jpg";
 const AnotherSection = () => {
   return (
-    <div className="Featurees">
-      <div className="Features1">
+    <div className="Feeaturees">
+      <div className="Feeatures1">
         <h1>Try It Today</h1>
         <hr />
         <p>
