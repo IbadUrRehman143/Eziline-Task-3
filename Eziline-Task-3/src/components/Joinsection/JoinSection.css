@@ -1,6 +1,6 @@
 .join{
     background-color: #1a57a5;
-    width: 1263px;
+    width: 1904px;
     height: 330px;
     margin-top: 70px;
     
@@ -14,6 +14,8 @@
     text-align: center;
     padding-top: 40px;
     color: #fff;
+    font-size: var(--font-size-md);
+    font-family: var(--font-family-open);
 }
 
 .Features1 p {
@@ -22,6 +24,8 @@
     margin: auto;
     text-align: center;
     color: rgba(255, 255, 255, .7);
+    font-size: var(--font-size-sm);
+    font-family: var(--font-family-open);
 }
 button{
     background: black;
@@ -43,6 +47,7 @@ button{
     .Features1 h1 {
         text-align: center;
         padding-top: 20px;
+        font-size: 22px;
         color: #fff;
     }
     .Features1 p {
@@ -54,7 +59,7 @@ button{
     }
     .join{
         background-color: #1a57a5;
-        width: 414px;
+        width: 360px;
         height: 330px;
         margin-top: 70px;
         

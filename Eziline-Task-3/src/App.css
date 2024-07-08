@@ -1,0 +1,149 @@
+.section-bg {
+    background-color: #D6E6F2;
+    padding-bottom: 2;
+}
+.section-bg2 {
+    background-color: #D6E6F2;
+    padding-bottom: 2;
+
+}
+
+
+.imageheading:nth-child(3) {
+    flex-direction: row-reverse;
+    padding-left: 45rem;
+}
+
+.cardflex{
+    padding-top: 8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5rem;
+    padding-bottom: 5rem;
+}
+
+.flexing{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5rem;
+    padding-bottom: 5rem;
+}
+.para1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5rem;
+    margin-top: 2rem;
+}
+.para2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+@media (max-width:1200px){
+    .imageheading:nth-child(3) {
+        flex-direction: row-reverse;
+        padding-left: 4rem;
+    }
+    
+    .cardflex{
+        padding-top: 8rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 5rem;
+    }
+    .para1{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 5rem;
+        margin-top: 2rem;
+    }
+    .para2{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 5rem;
+        margin-top: 2rem;
+    }
+}
+@media (max-width:995px){
+    .imageheading:nth-child(3) {
+        flex-direction: column-reverse;
+        padding-left: 1rem;
+    }
+    
+    .cardflex{
+        padding-top: 8rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 5rem;
+    }
+    .flexing{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 2rem;
+    }
+    .para1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 5rem;
+        margin-top: 2rem;
+    }
+    .para2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 5rem;
+        margin-top: 2rem;
+    }
+
+}
+@media (max-width:768px){
+    .imageheading:nth-child(3) {
+        flex-direction: column-reverse;
+        padding-left: 1rem;
+    }
+    
+    .cardflex{
+        padding-top: 8rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 5rem;
+    }
+    .flexing{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 2rem;
+    }
+    .para1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 5rem;
+        margin-top: 2rem;
+        margin-left: 2rem;
+    }
+    .para2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 5rem;
+        margin-top: 2rem;
+        margin-left: 2rem;
+    
+    }
+
+}

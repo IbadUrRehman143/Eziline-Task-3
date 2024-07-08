@@ -1,92 +1,95 @@
-h1{
-    color: black;
+.highlight-wrapper{
+    padding-top: 15rem;
 }
-.HighLight{
+.highlight{
+    margin: auto;
+    max-width: var(--screen-lg);
     display: flex;
+    flex-direction: row;
     justify-content: center;
-    margin-top: 170px;
-    margin-bottom: 200px;
-}
-.section1{
-    width: 290px;
-}
-.section2{
-    width: 290px; 
-    margin-left: 85px;
-
-}
-.section3{
-    width: 290px;
-    margin-left: 85px;
-
-}
-.section1 img , .section2 img , .section3 img{
-    height: 100px;
-}
-.section1 p , .section2 p , .section3 p{
-    margin-top: 30px;
-}
-.section1 h1 , .section2 h1 , .section3 h1{
-    margin-top: 30px;
-}
-.section1 button , .section2 button , .section3 button{
-    margin-top: 30px;
-    width: 110px;
-    height: 30px;
-    background: transparent;
-    border: 3px solid #fff;
-    font-size: larger;
-
-}
-.section1 button ,a, .section2 button ,a, .section3 button,a{
-    text-decoration: none;
+    gap: 5rem;
 }
 
-@media (max-width: 768px){
-    .HighLight{
+.highlight-card img{
+    height: 11rem;
+}
+
+.highlight-card h1{
+    font-size: 3.6rem;
+    padding-top: 2rem;
+    color: var(--background-color-blue);
+    font-family: var(--font-faimly-open);
+}
+
+.highlight-card p{
+    font-size: var(--font-size-sm);
+    padding-top: 2rem;
+    color: var(--color-gray);
+    font-family: var(--font-faimly-open);
+    padding-bottom: 2rem;
+}
+
+.highlight-card .incor-tag{
+    display: flex;
+    align-items: center;
+    font-family: var(--font-faimly-open);
+    font-size:2rem;
+    padding: 2rem;
+    color: var(--background-color-blue);
+    margin-left: 16rem;
+    gap: 11px;
+}
+
+.highlight-card .incor-tag a {
+    color: var(--background-color-blue)
+}
+
+@media (max-width:1200px){
+    .highlight-card{
+        width: 28rem;
+    }
+    .highlight-card h1{
+        font-size: 2.6rem;
+        padding-top: 2rem;
+        color: var(--background-color-blue);
+        font-family: var(--font-faimly-open);
+    }
+    .highlight-card .incor-tag{
         display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        margin-top: 50px;
-        margin-bottom: 100px;
+        align-items: center;
+        font-family: var(--font-faimly-open);
+        font-size:2rem;
+        padding: 2rem;
+        color: var(--background-color-blue);
+        margin-left: 10rem;
     }
-    .section1{
-        width: 190px;
+
+}
+@media (max-width:995px){
+    .highlight-card{
+        width: 80%;
     }
-    .section2{
-        width: 190px; 
-        margin-left: 10px;
-    
+    .highlight{
+        margin: auto;
+        max-width: var(--screen-lg);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5rem;
     }
-    .section3{
-        width: 190px;
-        margin-left: 10px;
-    
+    .highlight-card h1{
+        font-size: 2.6rem;
+        padding-top: 2rem;
+        color: var(--background-color-blue);
+        font-family: var(--font-faimly-open);
     }
-    .section1 img , .section2 img , .section3 img{
-        height: 50px;
-        margin-top: 20px;
-        margin-left: -40px;
+    .highlight-card .incor-tag{
+        display: flex;
+        align-items: center;
+        font-family: var(--font-faimly-open);
+        font-size:2rem;
+        color: var(--background-color-blue);
+        margin-left: 1rem;
     }
-    .section1 p , .section2 p , .section3 p{
-        margin-top: 30px;
-        margin-left: -40px;
-    }
-    .section1 h1 , .section2 h1 , .section3 h1{
-        margin-top: 30px;
-        margin-left: -40px;
-    }
-    .section1 button , .section2 button , .section3 button{
-        margin-top: 30px;
-        width: 226px;
-        height: 30px;
-        background: transparent;
-        border: 3px solid #fff;
-        font-size: larger;
-        margin-bottom: 10px;
-    
-    }
-    .section1 button ,a, .section2 button ,a, .section3 button,a{
-        text-decoration: none;
-    }
+
 }

@@ -19,12 +19,14 @@ const Footer = () => {
       </div>
       <div>
         <div className="foot">
-          © 2019 Frame. All Rights Reserved. <br /> Designed &amp;{" "}
+          <span className="nn">
+          © 2019 Frame. All Rights Reserved.  Designed &amp;{" "}
           <a href="https://uicookies.com/bootstrap-html-templates/">
             Bootstrap templates{" "}
           </a>{" "}
           by uiCookies <br /> Demo Images by{" "}
           <a href="https://unsplash.com">Unsplash</a>
+          </span>
         </div>
       </div>
     </div>

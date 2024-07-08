@@ -1,34 +1,46 @@
 import React from "react";
 import "./Form.css";
 const Form = () => {
-  return (
-    <div>
-      <div className="bg">
-        <div className="form">
-          <form className="form2">
-            <h3>Get In Touch</h3>
-            <input type="text" placeholder="Your Name" />
-            <input type="text" placeholder="Your Email" />
-            <input type="text" placeholder="Your Contact" />
-            <textarea className="resize" placeholder="Message">
-              Message
-            </textarea>
-          <button className="tr">Submit Message</button>
-          </form>
-        <div className="Contact">
-          <h3>Email</h3>
-          <p>khan9909@gmail.com</p>
-          <h3>Phone</h3>
-          <p>+92 34565788</p>
-          <h3>Fax</h3>
-          <p>+30 976 1382 9922</p>
-          <h3>Address</h3>
-          <p>San Francisco, CA 4th Floor8 Lower San Francisco street, M1 50F</p>
+    return (
+        <div className="Form-section">
+        <div className="form-and-contact">
+            <div className="form-area">
+                <h6>Get In Touch</h6>
+                <form action="">
+                    {/* Name Email Phone Message submit */}
+                    <input type="text" placeholder="Your Name" name="" id="" />
+                    <input type="email" placeholder="Your Email" name="" id="" />
+                    <input type="number" placeholder="Your Phone" name="" id="" />
+                    <textarea placeholder="Write Message" name="" id=""></textarea>
+                    <input type="submit" value="Send Message" />
+                </form>
+            </div>
+
+            <div className="contact">
+                <div className="contact-text">
+                    Email
+                    <div className="contact-value">probootstrap@gmail.com</div>
+                </div>
+                <div className="contact-text">
+                    Phone
+                    <div className="contact-value">+92 342 789234</div>
+                </div>
+                <div className="contact-text">
+                    Fax
+                    <div className="contact-value">+71 9345 23</div>
+                </div>
+                <div className="contact-text">
+                    Address 
+                    <div className="contact-value">
+                        San Francisco, CA
+                        4th Floor8 Lower
+                        San Francisco street, M1 50F
+                    </div>
+                </div>
+            </div>
         </div>
         </div>
-      </div>
-    </div>
-  );
+    );
 };
 
 export default Form;

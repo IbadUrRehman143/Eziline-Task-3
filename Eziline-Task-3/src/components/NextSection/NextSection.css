@@ -1,118 +1,200 @@
-.Featuress{
-    background-color: #D6E6F2;
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 40px;
-    font-weight: 200;
-    font-family: inherit;
-    
-}
-
-.Features1 hr {
-    width: 60px;
-    height: 3px;
-    background-color: #1a57a5;
-    border-radius: 102px;
-    margin: auto;
-    margin-top: 30px;
-}
-
-.Features1 h1 {
-    margin-top: 30px;
-    text-align: center;
-
-}
-
-.Features1 p {
-    padding-top: 30px;
-    width: 680px;
-    margin: auto;
-}
-
-.cards6 {
-    display: flex;
-    margin-top: 60px;
-    align-items: center;
-}
-
-.Firstcard,
-.Secondcard,
-.thirdcard {
+.card-element{
     background-color: #fff;
-    margin-left: 90px;
+    width: 400px;
+    margin-top: 10rem ;
+     display: flex;
+    flex-direction: row;
+    justify-content: center;
     
 
 }
 
-.Firstcard img,
-.Secondcard img,
-.thirdcard img {
-    border-radius: 50px;
-    padding-top: 20px;
+.card-element .firstcard img{
     width: 100px;
-    height: 100px;
-    ;
-    margin-right: 125px;
-
+    border-radius: 50%;
+    padding: 2rem 2rem 2rem 2rem;
 }
 
-.Firstcard p,
-.Secondcard p,
-.thirdcard p {
-    margin-top: 20px;
-    width: 300px;
-    font-style: italic;
-}
-
-.Firstcard hr,
-.Secondcard hr,
-.thirdcard hr {
-    margin-top: 30px;
-    width: 44px;
-    margin-left: 20px;
-    color: black;
-}
-
-.Firstcard h2,
-.Secondcard h2,
-.thirdcard h2 {
+.card-element .firstcard h2{
+    margin-left: 2rem;
     color: #F79F24;
-    margin-top: 30px;
-    margin-left: -120px;
-    padding: 2px;
+    padding: 2rem 2rem 2rem 2rem;
 }
 
-.Firstcard h3,
-.Secondcard h3,
-.thirdcard h3 {
-    margin-top: -12px;
-    margin-bottom: 20px;
-    color: #73767c;
-
+.card-element .firstcard p{
+    font-size: var(    --font-size-sm);
+    font-family: var( --font-family-open);
+    color: var( --color-gray);
+    width: 40rem;
+    padding: 2rem 2rem 2rem 2rem;
 }
 
-.cards7 {
-    display: inline-block;
+.card-element .firstcard h3{
+    font-size: var(    --font-size-sm);
+    font-family: var( --font-family-open);
+    color: var( --color-gray);
+    padding: 2rem 2rem 2rem 6rem;
+}
+
+@media (max-width:1500px){
+    .card-element{
+        background-color: #fff;
+        
+        width: 300px;
+        margin-top: 10rem ;
+         display: flex;
+        flex-direction: row;
+        justify-content: center;
+        
+    
+    }
+    
+    .card-element .firstcard img{
+        width: 100px;
+        border-radius: 50%;
+        padding: 2rem 2rem 2rem 2rem;
+    }
+    
+    .card-element .firstcard h2{
+        margin-left: 2rem;
+        color: #F79F24;
+        padding: 2rem 2rem 2rem 2rem;
+    }
+    
+    .card-element .firstcard p{
+        font-size: var(    --font-size-sm);
+        font-family: var( --font-family-open);
+        color: var( --color-gray);
+        width: 30rem;
+        padding: 2rem 2rem 2rem 2rem;
+    }
+    
+    .card-element .firstcard h3{
+        font-size: var(    --font-size-sm);
+        font-family: var( --font-family-open);
+        color: var( --color-gray);
+        padding: 2rem 2rem 2rem 6rem;
+    }
+}
+@media (max-width:1200px){
+    .card-element{
+        background-color: #fff;
+        width: 300px;
+        margin-top: 10rem ;
+         display: flex;
+        flex-direction: row;
+        justify-content: center;
+        
+    
+    }
+    
+    .card-element .firstcard img{
+        width: 100px;
+        border-radius: 50%;
+        padding: 2rem 2rem 2rem 2rem;
+    }
+    
+    .card-element .firstcard h2{
+        margin-left: 2rem;
+        color: #F79F24;
+        padding: 2rem 2rem 2rem 2rem;
+    }
+    
+    .card-element .firstcard p{
+        font-size: var(    --font-size-sm);
+        font-family: var( --font-family-open);
+        color: var( --color-gray);
+        width: 20rem;
+        padding: 2rem 2rem 2rem 2rem;
+    }
+    
+    .card-element .firstcard h3{
+        font-size: var(    --font-size-sm);
+        font-family: var( --font-family-open);
+        color: var( --color-gray);
+        padding: 2rem 2rem 2rem 6rem;
+    }
+}
+
+@media (max-width:995px){
+    .card-element{
+        background-color: #fff;
+        width: 250px;
+        margin-top: 10rem ;
+         display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    
+    }
+    
+    .card-element .firstcard img{
+        width: 100px;
+        border-radius: 50%;
+        padding: 2rem 2rem 2rem 2rem;
+    }
+    
+    .card-element .firstcard h2{
+        margin-left: 2rem;
+        color: #F79F24;
+        padding: 2rem 2rem 2rem 2rem;
+    }
+    
+    .card-element .firstcard p{
+        font-size: var(    --font-size-sm);
+        font-family: var( --font-family-open);
+        color: var( --color-gray);
+        width: 20.5rem;
+        padding: 2rem 2rem 2rem 2rem;
+    }
+    
+    .card-element .firstcard h3{
+        font-size: var(    --font-size-sm);
+        font-family: var( --font-family-open);
+        color: var( --color-gray);
+        padding: 2rem 2rem 2rem 6rem;
+    }
 }
 
 @media(max-width:768px){
-    .Features1 p {
-        padding-top: 30px;
+    .card-element{
+        background-color: #fff;
         width: 300px;
-        margin: auto;
-        text-align: center;
-        color: rgba(255, 255, 255, .7);
-    }
-    .cards6 {
+        margin-left: 3rem;
         display: flex;
-        flex-wrap: wrap;
-        margin-top: 60px;
-        align-items: center;
+        flex-direction: row;
+        justify-content: center;       
 
     }
-    .Firstcard, .Secondcard, .thirdcard {
-        background-color: #fff;
-        margin-left: 50px;
-        margin-top: 30px;
+    .firstcard{
+        margin-left: 2rem;
+    }
+    .card-element .firstcard img{
+        width: 100px;
+        border-radius: 50%;
+        padding: 2rem 2rem 2rem 2rem;
+        
+    }
+    
+    .card-element .firstcard h2{
+        margin-left: 2rem;
+        color: #F79F24;
+        padding: 2rem 2rem 2rem 0px;
+    }
+    
+    .card-element .firstcard p{
+        font-size: var(    --font-size-sm);
+        font-family: var( --font-family-open);
+        color: var( --color-gray);
+        width: 30rem;
+        padding: 2rem 2rem 2rem 2rem;
+        font-style: italic;
+    }
+    
+    .card-element .firstcard h3{
+        font-size: var(    --font-size-sm);
+        font-family: var( --font-family-open);
+        color: var( --color-gray);
+        padding: 2rem 2rem 2rem 1.5rem;
     }
 }
